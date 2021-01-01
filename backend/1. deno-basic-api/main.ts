@@ -5,6 +5,7 @@ Deno samples included are also licensed under MIT.
 https://mit-license.org
 
 ** About this Sample:
+Extends the base Deno HTTP server sample.
 A basic implementation of a server and API in Deno
 Has a default "Hello World" route. Explore adding
 different "routes" and actions to this server.
