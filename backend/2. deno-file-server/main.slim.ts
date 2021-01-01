@@ -10,7 +10,7 @@ For explanations or the original tasks, see
 the other files in this folder.
 
 ** How to Run:
-deno run --allow-net --allow-read=app --unstable main.completed.ts
+deno run --allow-net --allow-read=app --unstable main.slim.ts
 Allow network and file read access to the "app" folder.
 Some parts of Deno we use are also unstable, so we allow that.
 */
