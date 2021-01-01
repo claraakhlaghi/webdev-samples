@@ -2,28 +2,30 @@
 [![https://maintained.cc/SDBagel/webdev-samples/1](https://maintained.cc/SDBagel/webdev-samples/1)](https://maintained.cc/SDBagel/webdev-samples/1/redirect)
 [![https://maintained.cc/SDBagel/webdev-samples/2](https://maintained.cc/SDBagel/webdev-samples/2)](https://maintained.cc/SDBagel/webdev-samples/2/redirect)
 
-Samples for the web development workshop/course I host, organized into backend, database, and frontend sections.
+This repo includes samples for the web development workshop/course I host, organized into backend, database, and frontend subsections.
 
 Each sample will include instructions in either a README or at the top of the code file. There are four samples per section and three sections to constitute twelve weeks of course material. Incomplete samples (excercises) and completed samples are included.
 
 ## Prior Knowledge
-Basics of JavaScript is highly encouraged, including declaring variables, knowledge of functions, and loops.
+Basics of JavaScript or another object-oriented language like Python, Java, or C# is highly encouraged for all subsections. This includes declaring variables, knowledge of functions, and loops.
 
-Basic knowledge of HTML and CSS is recommended for the frontend samples. This includes elements like `<div>`, `<p>`, and `<h1>`, as well as knowledge of CSS class, element, and id selectors.
+Knowing the top level of how websites work and users interact with servers can also be helpful in understanding how these samples function. 
 
-You should also know the top-level differences between frontend and backend. For example, that the user sees the frontend (HTML, CSS, and JS), which is all data provided by a server (the backend).
+As a quick refresher, what the user sees is the *frontend*. This includes the HTML, CSS, and JS you write. The frontend is *served* to the user by the backend, which is a server. Each time the user wants more data, they call the backend. User data and other info can be stored in a database, which the user accesses through the backend.
 
-## Backend
+## Software Requirements
+
+### Backend
 For simplicity of install and management, most of the backend samples use [Deno](https://deno.land). Deno is secure, one terminal command to install, and uses TypeScript, a typed superset of JavaScript encouraging better code practices. These samples work with backend concepts like creating APIs, serving files, and more.
 
-## Database
+### Database
 Database samples are separated from backend samples for clarity. These samples use MongoDB and Deno, and work with managing data in conjunction with a backend. It is recommended to start with the backend samples first.
 
-## Frontend
+### Frontend
 There will be standard HTML, CSS, and JS files included in the first few samples, stepping up to introduce SCSS and TypeScript for the frontend. These samples focus on design and principles of UI, UX, and how that relates to the code and markup itself. Later samples introduce [NodeJS](https://nodejs.org/en/) and Angular 11 as a framework.
 
 ## Course Extensions
-For more reading from me, check out [Integration Testing](https://sdbagel.com/integration-testing), which is my blog for code design and the intricacies of putting something together to make a great project.
+For more reading from me, check out [Integration Testing](https://sdbagel.com/integration-testing), which is my blog for code design and the intricacies of putting something together to make a great project. Right now, it focuses more on the ideals rather than the code itself, which many tutorials seem to gloss over.
 
 Otherwise, [searching](https://ddg.gg) for tutorials on various technologies, languages, and how to do certain things will almost certaintly yield results and be of great benefit. Of course, more practice means more experience!
 
