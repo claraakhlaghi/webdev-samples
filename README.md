@@ -11,6 +11,8 @@ Basics of JavaScript is highly encouraged, including declaring variables, knowle
 
 Basic knowledge of HTML and CSS is recommended for the frontend samples. This includes elements like `<div>`, `<p>`, and `<h1>`, as well as knowledge of CSS class, element, and id selectors.
 
+You should also know the top-level differences between frontend and backend. For example, that the user sees the frontend (HTML, CSS, and JS), which is all data provided by a server (the backend).
+
 ## Backend
 For simplicity of install and management, most of the backend samples use [Deno](https://deno.land). Deno is secure, one terminal command to install, and uses TypeScript, a typed superset of JavaScript encouraging better code practices. These samples work with backend concepts like creating APIs, serving files, and more.
 
