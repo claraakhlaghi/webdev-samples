@@ -81,7 +81,10 @@ router
     let value: any;
     if (body.type === "json")
       value = await body.value;
-    else return;
+    else {
+      context.response.status = 400; // 400 = Bad Request
+      return;
+    }
 
     // TASK 1: We've just recieved some new data passed to
     // our server, but we need to add it to our data collection.
