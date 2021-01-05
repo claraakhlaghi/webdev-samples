@@ -78,6 +78,9 @@ router
     console.log(`Added: ${value}`);
     console.log(fruitCollection);
 
+    // Respond that everything is OK (200)
+    context.response.status = 200;
+    context.response.body = "OK";
   })
   // TASK 2: Make a GET route on "/data" to return the fruits we have.
   // We use the .get function and pass in the route name and function

@@ -91,6 +91,10 @@ router
     // Assume the data is correctly formed as a single fruit object.
     // Ex: value is { name: "Name", quality: 8 }
 
+    // Post requests still need a response!
+    // Respond that everything is OK (200)
+    context.response.status = 200;
+    context.response.body = "OK";
   })
   // TASK 2: We also want to get our data as a client, not just
   // upload it to the server. Make a GET route on "/data" to return

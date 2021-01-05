@@ -57,6 +57,10 @@ router
     fruitCollection.push(value);
     console.log(`Added: ${value}`);
     console.log(fruitCollection);
+
+    // Respond that everything is OK (200)
+    context.response.status = 200;
+    context.response.body = "OK";
   })
   .get("/data", (context) => {
     // Return fruitCollection as a JSON
