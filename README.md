@@ -4,7 +4,9 @@
 
 This repo includes samples for the web development workshop/course I host, organized into backend, database, and frontend subsections.
 
-Each sample will include instructions in either a README or at the top of the code file. There are four samples per section and three sections to constitute twelve weeks of course material. Incomplete samples (excercises) and completed samples are included.
+Each sample will include instructions in either a README or at the top of the code file. There are four samples per section and three sections to constitute twelve weeks of course material. Incomplete samples (excercises) and completed samples are included for applicable sections.
+
+Found errors or inconsistencies? Please make a pull request or issue to this repository.
 
 ## Prior Knowledge
 Basics of JavaScript or another object-oriented language like Python, Java, or C# is highly encouraged for all subsections. This includes declaring variables, knowledge of functions, and loops.
