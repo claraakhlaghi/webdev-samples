@@ -1,0 +1,19 @@
+/* additional layout features */
+p.p1 {
+    color: blue;
+    }
+
+p#someId {
+    color: green;
+    }
+
+h1 {
+    color: red;
+    }    
+
+div {
+    p {
+        background-color: aqua;
+    }
+}
+// for loops learn later
