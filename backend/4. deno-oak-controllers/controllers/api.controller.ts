@@ -26,8 +26,8 @@ export class ApiController {
     // TASK: This is just some placeholder data! Let's 
     // ake it return the data from our weather store. 
     // Hint: Do the tasks in the weather service first.
-    response.body = { message: 'The weather here is great.' };
-    response.status = 200;
+    response.body = { message: this.weather.getWeather("Mountain View") };
+    response.status = 200; 
   }
 
   // A "Post Weather" method. This coule be a method for
@@ -41,7 +41,7 @@ export class ApiController {
     // TASK: Process and store newWeatherData into
     // Hint: use 'this.weather' and your completed
     // weather service and methods!
-    
+    this.weather.setWeather(newWeatherData["Place Name"], newWeatherData["Temp"]);//needs to be cont....
     // Post requests still need a response!
     response.body = { message: 'OK' };
     response.status = 200;

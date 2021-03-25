@@ -21,7 +21,13 @@ export class WeatherService {
   // a particular location, including temperature.
   // Upon 'getting' weather info, a JSON object should
   // be returned with place name and temperature.
+  getWeather(placeName: string) {
+    return this.data.get(placeName);
+  }
   
+  setWeather(placeName: string, temperature: string) {
+    this.data.store(placeName, temperature); //name: varname
+  }
   // HINT: Use `this.data` to access the data service.
   // HINT: A JSON object looks like { ... }. Properties
   // can go in it like a dictionary in other languages.

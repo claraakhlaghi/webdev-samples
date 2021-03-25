@@ -9,7 +9,8 @@ export class DataService {
   // Declare a private in-memory dictionary.
   // Used as our 'database' since backend is
   // advised to be covered before databases.
-  private data: { [id: string]: string } = {};
+  private data: { [id: string]: string } = {"Mountain View"/**object property**/: "house"};
+
 
   constructor() {}
 
