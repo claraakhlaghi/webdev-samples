@@ -89,7 +89,7 @@ router
     // TASK 1: We've just recieved some new data passed to
     // our server, but we need to add it to our data collection.
     // Assume the data is correctly formed as a single fruit object.
-    // Ex: value is { name: "Name", quality: 8 }
+    // Ex: value is { name: "Name", quality: 8 } //fetch("http://localhost:8000/data", {method: "POST", body: JSON.stringify({name: "Peach", quality: 7}), headers: new Headers({"Content-Type": "application/json"})})
 
     // Post requests still need a response!
     // Respond that everything is OK (200)
