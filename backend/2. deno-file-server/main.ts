@@ -31,6 +31,15 @@ console.log("Server active at: http://localhost:8000/index.html");
 for await (const req of server) {
   // Log the request URL so we can see what's being accessed.
   console.log(req.url);
+  //TASK:....colon used for objects
+  if (req.url === "/") {
+    req.url = "/index.html";
+  }
+  if (req.url === "/data") {
+    //stop loop
+    req.respond({ status: 404, body: "Not found!" });
+    continue;
+  }
   // Append 'app' to url. Ensures only the app folder is accessed.
   const path = `app${req.url}`;
 
